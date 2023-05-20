@@ -1,0 +1,61 @@
+#modul {
+  position: fixed;
+  display: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background: rgb(236, 230, 230);
+}
+
+.modul-forma__btn-close {
+  font-size: 24px;
+}
+
+.modul-forma__heading {
+  text-align: center;
+}
+
+.modul-forma__input-number {
+  display: block;
+  margin: 0 auto;
+}
+
+.modul-forma__input-com {
+  display: block;
+  margin: 0 auto;
+}
+
+.modul-forma__radio-conteiner {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.modul-forma__radio {
+   margin-right: 15px;
+}
+
+.modul-forma__radio:last-child{
+   margin-right: 0;
+}
+
+.modul-forma__input-number-com {
+   margin-bottom: 30px;
+}
+
+.modul-forma__btn-shop{
+   display: block;
+   margin: 0 auto;
+   cursor: pointer;
+   padding: 8px 40px;
+}
+
+.modul-forma__input-com-con{
+   margin-bottom: 30px;
+}
+
+.hidden{
+   display: none;
+}

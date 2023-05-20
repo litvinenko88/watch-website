@@ -1,0 +1,35 @@
+:root {
+   --color-white: #fff;
+   --line-height: 1.7;
+}
+
+*{
+   box-sizing: border-box;
+}
+
+body{
+   background: var(--color-white);
+   line-height: var(--line-height);
+   margin-top: 100px;
+   
+}
+
+.topic1-fon{
+   background: rgba(0, 0, 0, 0.8);
+}
+
+.topic2-fon {
+   background: #fff;
+}
+
+.topic-text-1{
+   color: #000000;
+}
+
+.topic-text-2{
+   color: #ffffff;
+}
+
+shadow {
+   box-shadow: -1px 2px 6px 6px #fff;
+}
